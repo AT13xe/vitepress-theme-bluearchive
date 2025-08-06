@@ -1,30 +1,5 @@
 import { defineConfigWithTheme } from 'vitepress'
 import mdItCustomAttrs from 'markdown-it-custom-attrs'
-export interface ThemeConfig {
-  //navBar
-  menuList: { name: string; url: string }[]
-
-  //banner
-  videoBanner: boolean
-  name: string
-  welcomeText: string
-  motto: string[]
-  social: { icon: string; url: string }[]
-
-  //spine
-  spineVoiceLang: 'zh' | 'jp'
-
-  //footer
-  footerName: string
-  poweredList: { name: string; url: string }[]
-
-  //gitalk
-  clientID: string
-  clientSecret: string
-  repo: string
-  owner: string
-  admin: string[]
-}
 
 export default defineConfigWithTheme<ThemeConfig>({
   lang: 'zh-CN',

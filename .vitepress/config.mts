@@ -68,8 +68,8 @@ export default defineConfigWithTheme<ThemeConfig>({
   // sitemap: {
   //   hostname: 'https://vitepress-theme-bluearchive.vercel.app',
   // },
-  title: "Sensei's 部落格",
-  description: "Sensei's 部落格",
+  title: "AT13xe's 部落格",
+  description: "AT13xe's 部落格",
   themeConfig: {
     // navBar
     menuList: [
@@ -79,12 +79,12 @@ export default defineConfigWithTheme<ThemeConfig>({
 
     //banner区配置
     videoBanner: false,
-    name: "Sensei's 部落格",
+    name: "AT13xe's 部落格",
     welcomeText: 'Hello, VitePress',
     motto: ['和你的日常，就是奇迹', '何気ない日常で、ほんの少しの奇跡を見つける物語。'],
     social: [
-      { icon: 'github', url: 'https://github.com/' },
-      { icon: 'bilibili', url: 'https://www.bilibili.com/' },
+      { icon: 'github', url: 'https://github.com/AT13xe' },
+      { icon: 'bilibili', url: 'https://www.bilibili.com/AT13xe' },
       { icon: 'qq', url: 'https://im.qq.com/index/' },
       { icon: 'wechat', url: 'https://weixin.qq.com/' },
     ],
